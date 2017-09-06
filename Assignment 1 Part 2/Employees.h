@@ -31,7 +31,7 @@ class Employees { // Container that holds an array of Employee Objects created f
 
 public:
 	// Will parse txt file for employee info
-	Employees(string filename, ifstream & employeeDataFile);
+	Employees(std::string filename, std::ifstream & employeeDataFile);
 
 private:
 	void writeEmployeeInfo();
