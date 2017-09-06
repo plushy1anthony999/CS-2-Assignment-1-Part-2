@@ -1,5 +1,7 @@
 #include "Employees.h"
 
+using namespace std;
+
 Employees::Employees(string filename, ifstream & employeeDataFile) {
 	cout << "Reading employee data from " << filename << " ..." << endl;
 

@@ -5,23 +5,9 @@ using namespace std;
 
 const bool UNIT_TESTING = true;
 
-/* Used for Calculating an Employee's Gross Salary */
-const double EMPLOYEE_CODE_S_BASE_PAY = 800;
-const double EMPLOYEE_CODE_O_BASE_PAY = 1000;
-const double EMPLOYEE_CODE_M_BASE_PAY = 1500;
-const double CLASSIFICATION_CODE_1_BONUS = 0.05;     // 5%
-const double CLASSIFICATION_CODE_2_BONUS = 0.1;      // 10%
-const double CLASSIFICATION_CODE_3_BONUS = 0.2;      // 20% 
-const double EDUCATIONAL_CODE_1_BONUS = 0;		     // 0%
-const double EDUCATIONAL_CODE_2_BONUS = 0.05;        // 5%
-const double EDUCATIONAL_CODE_3_BONUS = 0.12;	     // 12%
-const double EDUCATIONAL_CODE_4_BONUS = 0.2;	     // 20%
-const double YEARS_OF_SERVICE_0_TO_10_BONUS = 0.05;  // 5%
-const double YEARS_OF_SERVICE_ABOVE_10_BONUS = 0.01; // Add 1% for every year above ten to gross pay
 
-const int MAX_NUM_OF_EMPLOYEES = 30;
 
-void initalizeEmployees(Employee[MAX_NUM_OF_EMPLOYEES]);
+//void initalizeEmployees(Employee[MAX_NUM_OF_EMPLOYEES]);
 
 
 

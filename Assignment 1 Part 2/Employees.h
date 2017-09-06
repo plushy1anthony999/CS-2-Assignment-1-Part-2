@@ -2,7 +2,9 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include "Employee.h"
 
+const int MAX_NUM_OF_EMPLOYEES = 30;
 
 class Employees { // Container that holds an array of Employee Objects created from a txt file
 
@@ -33,4 +35,4 @@ public:
 
 private:
 	void writeEmployeeInfo();
-}
+};
